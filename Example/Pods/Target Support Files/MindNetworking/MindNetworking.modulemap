@@ -1,0 +1,6 @@
+framework module MindNetworking {
+  umbrella header "MindNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
