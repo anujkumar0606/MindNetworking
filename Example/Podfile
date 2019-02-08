@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MindNetworking_Example' do
+  pod 'MindNetworking', :path => '../'
+
+  target 'MindNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
